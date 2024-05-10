@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\props\common.props" />
+
+	<PropertyGroup>
+		<Title>XiHan.Admin.Infrastructure</Title>
+		<AssemblyName>XiHan.Admin.Infrastructure</AssemblyName>
+		<PackageId>XiHan.Admin.Infrastructure</PackageId>
+		<Description>曦寒管理基础设施组件库</Description>
+		<OutputType>Library</OutputType>
+	</PropertyGroup>
+
+</Project>
