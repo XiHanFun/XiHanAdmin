@@ -13,6 +13,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHanAdmin.Presentation.Api
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHanAdmin.Presentation.WebHost", "src\XiHanAdmin.Presentation.WebHost\XiHanAdmin.Presentation.WebHost.csproj", "{360ABDAD-5D8B-4227-84EA-8FA687988657}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Core", "1.Core", "{B8F50DAA-D806-4E15-A494-9BE5545CF4A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Test", "2.Test", "{7D1F454B-7821-4023-B898-9FA6C38188F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Other", "3.Other", "{95F7FA6E-0FF0-456E-AB09-C605570A8084}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CodeMaid.config = CodeMaid.config
+		props\common.props = props\common.props
+		nuget\LICENSE = nuget\LICENSE
+		nuget\readme.md = nuget\readme.md
+		nuget\readme.png = nuget\readme.png
+		snks\XiHanAdmin.snk = snks\XiHanAdmin.snk
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +58,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A88EF6B7-232B-476C-967D-F8EC229BABB6} = {B8F50DAA-D806-4E15-A494-9BE5545CF4A8}
+		{63EDC184-569D-4C15-AFAD-0EE17D00AB8A} = {B8F50DAA-D806-4E15-A494-9BE5545CF4A8}
+		{9C07382E-4400-40A5-9F54-D50820DA38DE} = {B8F50DAA-D806-4E15-A494-9BE5545CF4A8}
+		{B1E6BE11-81B5-4ED8-B077-417B003E6220} = {B8F50DAA-D806-4E15-A494-9BE5545CF4A8}
+		{360ABDAD-5D8B-4227-84EA-8FA687988657} = {B8F50DAA-D806-4E15-A494-9BE5545CF4A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {769E7D71-F3F7-40A8-B394-BA8C2BC5CFEA}
